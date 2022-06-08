@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Huboo\Translations;
+namespace Huboo\Translations\Providers;
 
 use Huboo\Translations\Services\Cache\RedisCacheService;
 use Huboo\Translations\Loader\HybridLoader;
