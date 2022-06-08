@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Huboo\Translations\Loader;
 
-use App\Translations\TranslationCache;
+use Huboo\Translations\TranslationCache;
 use Exception;
 use Illuminate\Contracts\Translation\Loader;
 use Illuminate\Filesystem\Filesystem;
