@@ -1,0 +1,1097 @@
+{
+    "account": {
+        "title": "My Huboo - Account",
+        "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+        "seoTitle": "Huboo | My Huboo - Account",
+        "UK_Shipment": {
+            "with_signature": "Always send 24 hours with signature",
+            "without_signature": "Always send 24 hours without signature",
+            "tracked_with_signature": "Always send 24 hours Tracked with signature",
+            "tracked_without_signature": "Always send 24 hours Tracked without signature",
+            "48_hours_with_signature": "Always send 48 hours with signature",
+            "48_hours_without_signature": "Always send 48 hours without signature",
+            "48_tracked_with_signature": "Always send 48 Tracked with signature",
+            "48_tracked_without_signature": "Always send 48 Tracked without signature",
+            "amazon_with_signature": "Always send Amazon orders 24 hours tracked with signature",
+            "upgrade_100": "Upgrade to 24 hours with signature above £100",
+            "upgrade_30": "Upgrade to 24 hours with signature above £30",
+            "upgrade_20": "Upgrade to 24 hours with signature above £20",
+            "upgrade_50": "Upgrade to 24 hours with signature above £50",
+            "always_dpd": "Always send with DPD",
+            "first_order": "Send first order to customer 24 hours then 48 hours for repeats"
+        },
+        "email_notification": {
+            "yes_after_sold": "Yes, email after each order sold",
+            "no_email": "No, do not email"
+        },
+        "international_shipment": {
+            "untracked": "Always send untracked",
+            "fully_tracked": "Always send fully tracked",
+            "tracked_signed": "Always send tracked and signed",
+            "upgrade_tracked_signed": "Upgrade Tracked to Tracked and Signed ",
+            "upgrade_tracked_20": "Upgrade to tracked above £20 (downgrade to untracked below £20)",
+            "upgrade_tracked_25": "Upgrade to tracked above £25 (downgrade to untracked below £25)",
+            "upgrade_tracked_30": "Upgrade to tracked above £30 (downgrade to untracked below £30)",
+            "upgrade_tracked_35": "Upgrade to tracked above £35 (downgrade to untracked below £35)",
+            "upgrade_tracked_40": "Upgrade to tracked above £40 (downgrade to untracked below £40)",
+            "upgrade_tracked_45": "Upgrade to tracked above £45 (downgrade to untracked below £45)",
+            "upgrade_tracked_50": "Upgrade to tracked above £50 (downgrade to untracked below £50)",
+            "upgrade_tracked_60": "Upgrade to tracked above £60 (downgrade to untracked below £60)",
+            "upgrade_tracked_80": "Upgrade to tracked above £80 (downgrade to untracked below £80)",
+            "upgrade_tracked_signed_20": "Upgrade to tracked and signed above £20 (downgrade to untracked below £20)",
+            "upgrade_tracked_signed_25": "Upgrade to tracked and signed above £25 (downgrade to untracked below £25)",
+            "upgrade_tracked_signed_30": "Upgrade to tracked and signed above £30 (downgrade to untracked below £30)",
+            "upgrade_tracked_signed_35": "Upgrade to tracked and signed above £35 (downgrade to untracked below £35)",
+            "upgrade_tracked_signed_40": "Upgrade to tracked and signed above £40 (downgrade to untracked below £40)",
+            "upgrade_tracked_signed_45": "Upgrade to tracked and signed above £45 (downgrade to untracked below £45)",
+            "upgrade_tracked_signed_50": "Upgrade to tracked and signed above £50 (downgrade to untracked below £50)",
+            "upgrade_tracked_signed_60": "Upgrade to tracked and signed above £60 (downgrade to untracked below £60)",
+            "upgrade_tracked_signed_80": "Upgrade to tracked and signed above £80 (downgrade to untracked below £80)"
+        },
+        "shipment_preferences": {
+            "when_sold": "When Sold",
+            "when_dispatched": "When Dispatched"
+        },
+        "radio_button": {
+            "yes_button": "Yes",
+            "no_button": "No"
+        }
+    },
+    "billing-info": {
+        "title": "My Huboo - Billing Info",
+        "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+        "seoTitle": "Huboo | My Huboo - Billing Info"
+    },
+    "billing": {
+        "title": "My Huboo - Billing report",
+        "seo_description": "Fulfillment from Huboo, we store and send your stock",
+        "seo_title": "Huboo | Simple and easy to use fulfillment",
+        "autoBillingDescription": "Your Account is set to Manually Bill due to a special price arrangement. Please contact your account manager for further information.",
+        "infoNotAvailable": "Billing Information not available. Please contact support."
+    },
+    "bundles-with-huboo": {
+        "title": "Bundles with Huboo",
+        "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+        "seoTitle": "Huboo | Bundles with Huboo",
+        "subTitle": "Bundles with Huboo - all Bundle SKU's here will ship the attached Huboo P numbers",
+        "addBundle": "Add New Bundle",
+        "bundleCreator": {
+            "title": "My Huboo - Create Bundle",
+            "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+            "seoTitle": "Huboo | Bundles with Huboo"
+        }
+    },
+    "channel-settings": {
+        "title": "My Huboo - Channel Settings",
+        "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+        "seoTitle": "Huboo | My Huboo - Channel Settings"
+    },
+    "channels-list": {
+        "title": "My Huboo - Channels",
+        "seo_description": "Fulfillment from Huboo, we store and send your stock",
+        "seo_title": "Huboo | Channels"
+    },
+    "countries": {
+        "AF": "Afghanistan",
+        "AL": "Albania",
+        "DZ": "Algeria",
+        "AS": "American Samoa",
+        "AD": "Andorra",
+        "AO": "Angola",
+        "AI": "Anguilla",
+        "AQ": "Antarctica",
+        "AG": "Antigua and Barbuda",
+        "AR": "Argentina",
+        "AM": "Armenia",
+        "AW": "Aruba",
+        "AU": "Australia",
+        "AT": "Austria",
+        "AZ": "Azerbaijan",
+        "BS": "Bahamas",
+        "BH": "Bahrain",
+        "BD": "Bangladesh",
+        "BB": "Barbados",
+        "BY": "Belarus",
+        "BE": "Belgium",
+        "BZ": "Belize",
+        "BJ": "Benin",
+        "BM": "Bermuda",
+        "BT": "Bhutan",
+        "BO": "Bolivia",
+        "BQ": "Bonaire, Sint Eustatius and Saba",
+        "BA": "Bosnia and Herzegovina",
+        "BW": "Botswana",
+        "BV": "Bouvet Island",
+        "BR": "Brazil",
+        "IO": "British Indian Ocean Territory",
+        "BN": "Brunei Darussalam",
+        "BG": "Bulgaria",
+        "BF": "Burkina Faso",
+        "BI": "Burundi",
+        "CV": "Cape Verde",
+        "KH": "Cambodia",
+        "CM": "Cameroon",
+        "CA": "Canada",
+        "KY": "Cayman Islands",
+        "CF": "Central African Republic",
+        "TD": "Chad",
+        "CL": "Chile",
+        "CN": "China",
+        "CX": "Christmas Island",
+        "CC": "Cocos [Keeling] Islands",
+        "CO": "Colombia",
+        "KM": "Comoros",
+        "CD": "Democratic Republic of the Congo",
+        "CG": "Republic of the Congo",
+        "CK": "Cook Islands",
+        "CR": "Costa Rica",
+        "HR": "Croatia",
+        "CU": "Cuba",
+        "CW": "Curaçao",
+        "CY": "Cyprus",
+        "CZ": "Czech Republic",
+        "CI": "Ivory Coast",
+        "DK": "Denmark",
+        "DJ": "Djibouti",
+        "DM": "Dominica",
+        "DO": "Dominican Republic",
+        "EC": "Ecuador",
+        "EG": "Egypt",
+        "SV": "El Salvador",
+        "GQ": "Equatorial Guinea",
+        "ER": "Eritrea",
+        "EE": "Estonia",
+        "SZ": "Swaziland",
+        "ET": "Ethiopia",
+        "FK": "Falkland Islands",
+        "FO": "Faroe Islands",
+        "FJ": "Fiji",
+        "FI": "Finland",
+        "FR": "France",
+        "GF": "French Guiana",
+        "PF": "French Polynesia",
+        "TF": "French Southern Territories",
+        "GA": "Gabon",
+        "GM": "Gambia",
+        "GE": "Georgia",
+        "DE": "Germany",
+        "GH": "Ghana",
+        "GI": "Gibraltar",
+        "GR": "Greece",
+        "GL": "Greenland",
+        "GD": "Grenada",
+        "GP": "Guadeloupe",
+        "GU": "Guam",
+        "GT": "Guatemala",
+        "GG": "Guernsey",
+        "GN": "Guinea",
+        "GW": "Guinea-Bissau",
+        "GY": "Guyana",
+        "HT": "Haiti",
+        "HM": "Heard Island and McDonald Islands",
+        "VA": "Vatican City",
+        "HN": "Honduras",
+        "HK": "Hong Kong",
+        "HU": "Hungary",
+        "IS": "Iceland",
+        "IN": "India",
+        "ID": "Indonesia",
+        "IR": "Iran",
+        "IQ": "Iraq",
+        "IE": "Ireland",
+        "IM": "Isle of Man",
+        "IL": "Israel",
+        "IT": "Italy",
+        "JM": "Jamaica",
+        "JP": "Japan",
+        "JE": "Jersey",
+        "JO": "Jordan",
+        "KZ": "Kazakhstan",
+        "KE": "Kenya",
+        "KI": "Kiribati",
+        "KP": "North Korea",
+        "KR": "South Korea",
+        "KW": "Kuwait",
+        "KG": "Kyrgyzstan",
+        "LA": "Laos",
+        "LV": "Latvia",
+        "LB": "Lebanon",
+        "LS": "Lesotho",
+        "LR": "Liberia",
+        "LY": "Libya",
+        "LI": "Liechtenstein",
+        "LT": "Lithuania",
+        "LU": "Luxembourg",
+        "MO": "Macao",
+        "MG": "Madagascar",
+        "MW": "Malawi",
+        "MY": "Malaysia",
+        "MV": "Maldives",
+        "ML": "Mali",
+        "MT": "Malta",
+        "MH": "Marshall Islands",
+        "MQ": "Martinique",
+        "MR": "Mauritania",
+        "MU": "Mauritius",
+        "YT": "Mayotte",
+        "MX": "Mexico",
+        "FM": "Micronesia",
+        "MD": "Moldova",
+        "MC": "Monaco",
+        "MN": "Mongolia",
+        "ME": "Montenegro",
+        "MS": "Montserrat",
+        "MA": "Morocco",
+        "MZ": "Mozambique",
+        "MM": "Myanmar [Burma]",
+        "NA": "Namibia",
+        "NR": "Nauru",
+        "NP": "Nepal",
+        "NL": "Netherlands",
+        "NC": "New Caledonia",
+        "NZ": "New Zealand",
+        "NI": "Nicaragua",
+        "NE": "Niger",
+        "NG": "Nigeria",
+        "NU": "Niue",
+        "NF": "Norfolk Island",
+        "MP": "Northern Mariana Islands",
+        "NO": "Norway",
+        "OM": "Oman",
+        "PK": "Pakistan",
+        "PW": "Palau",
+        "PS": "Palestine",
+        "PA": "Panama",
+        "PG": "Papua New Guinea",
+        "PY": "Paraguay",
+        "PE": "Peru",
+        "PH": "Philippines",
+        "PN": "Pitcairn Islands",
+        "PL": "Poland",
+        "PT": "Portugal",
+        "PR": "Puerto Rico",
+        "QA": "Qatar",
+        "MK": "Macedonia",
+        "RO": "Romania",
+        "RU": "Russian Federation",
+        "RW": "Rwanda",
+        "RE": "Réunion",
+        "BL": "Saint Barthélemy",
+        "SH": "Saint Helena",
+        "KN": "Saint Kitts and Nevis",
+        "LC": "Saint Lucia",
+        "MF": "Saint Martin",
+        "PM": "Saint Pierre and Miquelon",
+        "VC": "Saint Vincent and the Grenadines",
+        "WS": "Samoa",
+        "SM": "San Marino",
+        "ST": "São Tomé and Príncipe",
+        "SA": "Saudi Arabia",
+        "SN": "Senegal",
+        "RS": "Serbia",
+        "SC": "Seychelles",
+        "SL": "Sierra Leone",
+        "SG": "Singapore",
+        "SX": "Sint Maarten",
+        "SK": "Slovakia",
+        "SI": "Slovenia",
+        "SB": "Solomon Islands",
+        "SO": "Somalia",
+        "ZA": "South Africa",
+        "GS": "South Georgia and the South Sandwich Islands",
+        "SS": "South Sudan",
+        "ES": "Spain",
+        "LK": "Sri Lanka",
+        "SD": "Sudan",
+        "SR": "Suriname",
+        "SJ": "Svalbard and Jan Mayen",
+        "SE": "Sweden",
+        "CH": "Switzerland",
+        "SY": "Syria",
+        "TW": "Taiwan",
+        "TJ": "Tajikistan",
+        "TZ": "Tanzania",
+        "TH": "Thailand",
+        "TL": "East Timor",
+        "TG": "Togo",
+        "TK": "Tokelau",
+        "TO": "Tonga",
+        "TT": "Trinidad and Tobago",
+        "TN": "Tunisia",
+        "TR": "Turkey",
+        "TM": "Turkmenistan",
+        "TC": "Turks and Caicos Islands",
+        "TV": "Tuvalu",
+        "UG": "Uganda",
+        "UA": "Ukraine",
+        "AE": "United Arab Emirates",
+        "GB": "United Kingdom",
+        "UM": "U.S. Minor Outlying Islands",
+        "US": "United States",
+        "UY": "Uruguay",
+        "UZ": "Uzbekistan",
+        "VU": "Vanuatu",
+        "VE": "Venezuela",
+        "VN": "Vietnam",
+        "VG": "British Virgin Islands",
+        "VI": "U.S. Virgin Islands",
+        "WF": "Wallis and Futuna",
+        "EH": "Western Sahara",
+        "YE": "Yemen",
+        "ZM": "Zambia",
+        "ZW": "Zimbabwe",
+        "AX": "Åland Islands",
+        "XK": ""
+    },
+    "csv-headers": {
+        "order": "Order #",
+        "shipping_name": "Shipping Name",
+        "address_line_1": "Address Line 1",
+        "address_line_2": "Address Line 2",
+        "address_line_3": "Address Line 3",
+        "address_line_4": "Address Line 4",
+        "shipping_street_address": "Shipping Street Address",
+        "shipping_street_address_2": "Shipping Street Address 2",
+        "shipping_country": "Shipping Country",
+        "shipping_city": "Shipping City",
+        "country": "Country",
+        "postcode": "Post Code",
+        "shipping_zip": "Shipping Zip",
+        "shipping_state": "Shipping State",
+        "shipping_method": "Shipping Method",
+        "sku": "SKU",
+        "lineitem_sku": "LineItem SKU",
+        "bundle_sku": "Bundle SKU",
+        "qty": "Quantity",
+        "lineitem_qty": "LineItem Qty",
+        "shipping_service": "Shipping Service",
+        "email_address": "Email Address",
+        "phone_number": "Phone Number",
+        "sale_price": "Sale Price",
+        "cost_price": "Cost Price",
+        "lineitem_sale_price": "LineItem Sale Price",
+        "channel": "Channel",
+        "title": "Title",
+        "identifier": "Identifier",
+        "picture_url": "Picture URL",
+        "weight": "Weight",
+        "commodity_code": "Commodity Code",
+        "manufacture_country": "Manufacture Country",
+        "customs_description": "Customs Description",
+        "variation_name": "variation_name",
+        "variation_value": "variation_value",
+        "variation_name_2": "variation_name_2",
+        "variation_value_2": "variation_value_2",
+        "variation_name_3": "variation_name_3",
+        "variation_value_3": "variation_value_3",
+        "variation_name_4": "variation_name_4",
+        "variation_value_4": "variation_value_4"
+    },
+    "csv-order-import-messages": {
+        "file_invalid": "Can not upload the file. Please check the format of the csv file is correct.",
+        "item_sku_required": "The SKU field is required.",
+        "inventory": {
+            "huboo_sku": "Huboo SKU",
+            "text_on_package": "Identifier",
+            "eBay_SKU": "Client SKU",
+            "eBay_variation_SKU": "Client Variation SKU",
+            "eBay_item_title": "Description",
+            "variation_name": "Variation",
+            "available": "Quantity Available in Huboo",
+            "current_price": "Stock Value Retail",
+            "cost": "Stock Value Cost",
+            "last_7_days_sales": "Last 7 Days Sent Items",
+            "last_28_days_sales": "Last 28 Days Sent Items",
+            "available_minus_last_28_days_sales": "Projected Inventory in 28 days"
+        },
+        "huboo_sku_required": "The SKU cannot be matched to an existing listing.",
+        "requires_order_number": "The order number is required.",
+        "requires_shipping_name": "The shipping address name field is required.",
+        "max_shipping_name": "The shipping address name may not be greater than :max characters.",
+        "requires_shipping_address_1": "The shipping address 1 field is required.",
+        "max_shipping_address_1": "The shipping address 1 may not be greater than :max characters.",
+        "max_shipping_address_2": "The shipping address 2 may not be greater than :max characters.",
+        "max_shipping_address_3": "The shipping address 3 may not be greater than :max characters.",
+        "max_shipping_address_4": "The shipping address 4 may not be greater than :max characters.",
+        "requires_shipping_country": "The country field is required. <a target=\"_blank\" href=\"https:\/\/huboo.freshdesk.com\/support\/solutions\/articles\/6000242891-importing-csv-order-files-using-the-dashboard\">See Country List<\/a>",
+        "exists_shipping_country": "The selected country name is invalid.",
+        "requires_item_quantity": "The quantity is required.",
+        "numeric_item_quantity": "The quantity must be a number.",
+        "numeric_item_price": "Sale Price must be a number. This is per single unit.",
+        "bundle_required_if": "Bundle SKU is required if bundle is selected.",
+        "upload": {
+            "generalError": "Can not upload the file",
+            "batchError": "Unable to upload batch order CSV file",
+            "done": "CSV Uploaded"
+        },
+        "pos_int_item_quantity": "The quantity must be a whole number and cannot be 0.",
+        "requires_item_price": "Sale Price is required.",
+        "channel_in": "Channel must be one of: :channels",
+        "error_getting_headers": "Error when getting headers",
+        "no_row_in_file": "The imported file did not contain any rows, please edit and try again.",
+        "no_column_missing": "No Columns Missing",
+        "missing_column": "Missing column: :titles",
+        "no_sku_found_for_order": "No SKU found for Order number :orderNo",
+        "no_matching_sku": "No Matching SKU in Listings :itemSku",
+        "blank_order_no": "The Order number field can not be blank :itemSku",
+        "order_no_exist": "This Order Number already exists :orderNo",
+        "blank_shipping_name": "The Shipping Name field can not be blank :itemSku",
+        "bigger_shipping_name": "Shipping Name field can not be bigger than :addressLength characters :itemSku",
+        "blank_address_line_1": "The Address line 1 field can not be blank :itemSku",
+        "bigger_address_line_1": "The Address line 1 field can not be bigger than :addressLength characters :itemSku",
+        "bigger_address_line_2": "The Address line 2 field can not be bigger than :addressLength characters :itemSku",
+        "bigger_address_line_3": "The Address line 3 field can not be bigger than :addressLength characters :itemSku",
+        "bigger_address_line_4": "The Address line 4 field can not be bigger than :addressLength characters :itemSku",
+        "blank_country": "The Country field can not be blank :itemSku",
+        "no_matching_country": "No Matching Country found, please see the list of Country names that should be used :itemSku",
+        "fill_town_for_country": "For :countryName please fill in Town in Address Line 4 :itemSku",
+        "fill_state_for_country": "For :countryName please fill in State\/Province in Address Line 4 :itemSku",
+        "no_matching_state": "No Matching State\/Province found, please see the list of State\/Province names :itemSku",
+        "blank_post_code": "The Postal Code field can not be blank :itemSku",
+        "no_special_char_post_code": "The Postal Code field can not contain special characters :itemSku",
+        "blank_quantity": "The Quantity field can not be blank :itemSku",
+        "numeric_quantity": "The Quantity field must be a numeric value :itemSku",
+        "blank_email": "The Email Address field can not be blank :itemSku",
+        "invalid_email": "The Email Address is invalid :itemSku",
+        "numeric_sales_price": "The Sale Price field must be a numeric value :itemSku",
+        "matched_with_huboo_product": "Managed to match with Huboo product :itemSku",
+        "processing_server_error": "Processing Server Error: ",
+        "product_title_required": "The title of the product must be entered.",
+        "identifier_required": "No identifier found. Please enter how Huboo should identify the product.",
+        "sku_required": "Please enter SKU for the product as it will appear on your sales channel.",
+        "invalid_country_manufacture_id": "The selected country manufacture id is invalid. Please use the 2 digit country code.",
+        "success_create_product": "Success, created new product :itemSku",
+        "error_processing_row": "Error on processing the row: :row"
+    },
+    "delivery": {
+        "title": "Delivery to Huboo",
+        "seoDescription": "Delivery to Huboo, we store and send your stock",
+        "seoTitle": "Huboo | Delivery to Huboo",
+        "subTitle": "Delivery to Huboo",
+        "createDelivery": "Add Stock",
+        "deliveryCreator": {
+            "title": "Create Delivery - Send your stock to Huboo",
+            "seoDescription": "Delivery to Huboo, we store and send your stock",
+            "seoTitle": "Huboo | Delivery to Huboo"
+        },
+        "deliveryConfirm": {
+            "title": "Confirmation Page",
+            "seoDescription": "Delivery to Huboo, we store and send your stock",
+            "seoTitle": "Huboo | Delivery to Huboo. Confirmation"
+        },
+        "list": {
+            "title": "Delivery list",
+            "seoDescription": "Delivery to Huboo, we store and send your stock",
+            "seoTitle": "Huboo | Delivery to Huboo."
+        },
+        "detail": {
+            "title": "Delivery",
+            "seoDescription": "Delivery to Huboo, we store and send your stock",
+            "seoTitle": "Huboo | Delivery to Huboo."
+        },
+        "package": {
+            "unknown": "Unknown",
+            "pallets": "Pallets",
+            "boxes": "Boxes",
+            "bags": "Unknown"
+        }
+    },
+    "enums": {
+        "paymentPreference": {
+            "directDebit": "Direct Debit",
+            "directDebitAndPP": "Direct Debit and PayPal (2000 limit)",
+            "PP2000Limit": "PayPal 2000 limit",
+            "PP10000Limit": "PayPal 10000 limit",
+            "PP40000Limit": "PayPal 40000 limit",
+            "PP1000Limit": "PayPal 1000 limit",
+            "PP500Limit": "PayPal 500 limit"
+        },
+        "settingsHistory": {
+            "ukShipmentSettingLabel": "UK Shipping Overrides",
+            "internationalShipmentSettingsLabel": "International Shipping Overrides",
+            "emailNotificationLabel": "Email Notifications",
+            "whenToConfirmAsDispatched": "When to confirm as dispatched",
+            "uploadTrackingNumbersToEbay": "Upload tracking numbers to Ebay",
+            "shippingNameType": "Use Business Name on Shipping Label",
+            "currierEmailNotification": "Enable carrier email notifications"
+        }
+    },
+    "general": {
+        "header": {
+            "title": "Huboo",
+            "tickets": "Tickets",
+            "allMessages": "Read All Messages",
+            "dashboard": "Dashboard",
+            "hubStore": "Hub Store",
+            "updateSettings": "Update Settings",
+            "billing": "Billing",
+            "logout": "Logout"
+        },
+        "links": {
+            "dashboard": "Back to Dashboard"
+        },
+        "footer": {
+            "help": "Help",
+            "copyright": "Copyright &copy; Huboo technologies limited",
+            "termsAndPrivacy": "Terms and Privacy"
+        },
+        "connected": "Connected",
+        "error": "Error",
+        "loading": "loading",
+        "open": "open",
+        "update": "update",
+        "alerts": {
+            "linnworks": {
+                "no_access": "ALERT : We have no access to your Linnworks account. Please add our app and provide Huboo access by clicking ",
+                "authorize_linnworks": "Authorise Linnworks"
+            },
+            "etsy": {
+                "no_enough_credentials": "ALERT : We don't have enough credentials to create Etsy authorization link for you to provide permissions for Huboo. Please connect our support team",
+                "no_enough_permissions": "ALERT : We don't have enough permissions to manage your inventory, please follow this link: ",
+                "allow_etsy_permissions": "Allow Etsy Permissions for Huboo"
+            },
+            "ebay": {
+                "no_access": "ALERT : We have no access to one of your eBay account. Please try giving Huboo access by clicking for Huboo. Please connect our support team",
+                "expired_authorization": "ALERT : We have no access to one of your eBay account or your authorisation has expired. Please give Huboo access again by clicking",
+                "authorize_ebay": "Authorise eBay"
+            },
+            "custom_alert": {
+                "message": "If you're planning on sending your products internationally please add required customs information against your Product Listings. For VAT purposes, you may also need to provide your EORI & IOSS number under Billing Information.",
+                "view_listings": " View Listings "
+            },
+            "user_alerts": {
+                "account_refresh": {
+                    "message": "Account maintenance - Some areas of your account are undergoing maintenance - stock and sales figures may not be up to date although all your orders will be shipped as normal."
+                },
+                "credit_suspension": {
+                    "message": "CREDIT VIOLATION TERMINATION <hr> YOUR ACCOUNT IS NOW SUSPENDED <hr> Please contact your account manager as soon as possible to resolve your credit status."
+                },
+                "credit_alert": {
+                    "message": "CREDIT ALERT WARNING - Your account, sales and stock are at risk. Please contact your account manager as soon as possible to resolve your credit status."
+                },
+                "needs_billing": {
+                    "message": "ALERT : We have no authorised billing details on file for you. Please provide your billing details by clicking here: ",
+                    "setup_payment": " Set Up Payment "
+                }
+            },
+            "title": {
+                "warning": "Warning",
+                "notice": "Notice"
+            }
+        },
+        "no_protection": "No loss or damage protection"
+    },
+    "history": {
+        "title": "My Huboo - History report",
+        "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+        "seoTitle": "Huboo | My Huboo - History report",
+        "tableTitle": "Item History with Huboo"
+    },
+    "hubstore": {
+        "seo_description": "Fulfillment from Huboo, we store and send your stock",
+        "seo_title": "Huboo | Simple and easy to use fulfillment"
+    },
+    "inventory": {
+        "title": "My Huboo - Inventory report",
+        "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+        "seoTitle": "Huboo | My Huboo - Inventory report",
+        "tableTitle": "Stock with Huboo",
+        "downloadCSV": "Download CSV",
+        "healthy": {
+            "lowStock": "Low stock",
+            "twoMonthStock": "Stock over 2 months",
+            "stock": "Healthy Stock"
+        }
+    },
+    "not-with-huboo-listing": {
+        "listingTableTitle": "Listings not yet with Huboo",
+        "pageSubTitle": "Listings not currently with Huboo - any items here can be added to Huboo",
+        "navigation": {
+            "activeEbay": "Active eBay Listings",
+            "allEbay": "All eBay Listings",
+            "manual": "Add Product Manually",
+            "shopify": "Shopify Listings",
+            "amazon": "Amazon Listings",
+            "etsy": "Etsy Listings",
+            "woocommerce": "WooCommerce Listings"
+        },
+        "amazon": {
+            "title": "Add Amazon Listings to Huboo",
+            "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+            "seoTitle": "Huboo | My Huboo - Add Amazon Listings to Huboo",
+            "notWith": {
+                "title": "Link Amazon Listing",
+                "description": "Connect your Huboo listing to Amazon listing",
+                "connected": "Amazon Listings not yet connected",
+                "select": "Select the listing you wish to connect"
+            }
+        },
+        "ebay": {
+            "title": "Add eBay Listings to Huboo",
+            "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+            "seoTitle": "Huboo | My Huboo - Add eBay Listings to Huboo",
+            "notWith": {
+                "title": "Link Active Ebay Listing",
+                "description": "Connect your Huboo listing to Active Ebay listing",
+                "connected": "Ebay Listings not yet connected",
+                "select": "Select the listing you wish to connect"
+            }
+        },
+        "ebayAll": {
+            "notWith": {
+                "title": "Link Ebay Listing",
+                "description": "Connect your Huboo listing to Ebay listing",
+                "connected": "Ebay Listings not yet connected",
+                "select": "Select the listing you wish to connect"
+            }
+        },
+        "etsy": {
+            "title": "Add Etsy Listings to Huboo",
+            "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+            "seoTitle": "Huboo | My Huboo - Add Etsy Listings to Huboo",
+            "notWith": {
+                "title": "Link Etsy Listing",
+                "description": "Connect your Huboo listing to Etsy listing",
+                "connected": "Etsy Listings not yet connected",
+                "select": "Select the listing you wish to connect"
+            }
+        },
+        "manual": {
+            "title": "Add Manual Listings to Huboo",
+            "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+            "seoTitle": "Huboo | My Huboo - Add Manual Listings to Huboo",
+            "pageSubTitle": "Add non-Channel products manually here. They can be connected to a channel later"
+        },
+        "shopify": {
+            "title": "Add Shopify Listings to Huboo",
+            "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+            "seoTitle": "Huboo | My Huboo - Add Shopify Listings to Huboo",
+            "notWith": {
+                "title": "Link Shopify Listing",
+                "description": "Connect your Huboo listing to Shopify listing",
+                "connected": "Shopify Listings not yet connected",
+                "select": "Select the listing you wish to connect"
+            }
+        },
+        "woocommerce": {
+            "title": "Add Woocommerce Listings to Huboo",
+            "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+            "seoTitle": "Huboo | My Huboo - Add Woocommerce Listings to Huboo",
+            "notWith": {
+                "title": "Link Woocommerce Listing",
+                "description": "Connect your Huboo listing to Woocommerce listing",
+                "connected": "Woocommerce Listings not yet connected",
+                "select": "Select the listing you wish to connect"
+            }
+        },
+        "chooseOptions": {
+            "tableTitle": "Choose Options",
+            "ebay": {
+                "title": "Choose Options",
+                "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+                "seoTitle": "Huboo | My Huboo - Choose Options Ebay"
+            },
+            "amazon": {
+                "title": "Choose Options",
+                "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+                "seoTitle": "Huboo | My Huboo - Choose Options Amazon"
+            },
+            "shopify": {
+                "title": "Choose Options",
+                "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+                "seoTitle": "Huboo | My Huboo - Choose Options Shopify"
+            },
+            "etsy": {
+                "title": "Choose Options",
+                "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+                "seoTitle": "Huboo | My Huboo - Choose Options Etsy"
+            },
+            "woocommerce": {
+                "title": "Choose Options",
+                "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+                "seoTitle": "Huboo | My Huboo - Choose Options Woocommerce"
+            }
+        },
+        "generalError": "Server Error. Can not edit the order."
+    },
+    "order": {
+        "title": "My Huboo - Add manual order",
+        "seo_description": "Fulfillment from Huboo, we store and send your stock",
+        "seo_title": "Huboo | Simple and easy to use fulfillment",
+        "multiple_batch_link": "Multiple\/Batch Upload",
+        "my_website_order_origin_label": "My Website",
+        "other_order_origin_label": "Other",
+        "sent_from_huboo": "Sent from Huboo",
+        "received_to_huboo": "Received to Huboo",
+        "errors": {
+            "no_inventory": "Waiting For Inventory",
+            "no_matching_item_in_huboo": "Not Matching",
+            "no_inventory_for_8_days": "No Inventory",
+            "duplicate_match": "Duplicate Listing",
+            "excluded_country": "Excluded Country",
+            "invalid_country": "Invalid Country",
+            "marked_as_dispatched_by_client": "Client Dispatched Item",
+            "bundle_no_inventory": "Bundle with no inventory",
+            "no_commodity_code": "No\/Invalid Commodity Code",
+            "failed_pre_basket": "Not Processed due to associated Product in same order failure"
+        }
+    },
+    "passwords": {
+        "token": "Incorrect token, please try to reset password again."
+    },
+    "returns": {
+        "title": "My Huboo - Returns",
+        "seo_description": "Fulfillment from Huboo, we store and send your stock",
+        "seo_title": "Huboo | Returns"
+    },
+    "rules": {
+        "requires_town_or_state": {
+            "requires_town": "Requires Town in Address Line 4 Field.",
+            "requires_state_or_province": "Address requires State\/Province.",
+            "state_or_province_does_not_exist": "The :attribute State\/Province does not exist."
+        },
+        "order_id_exists_for_huboobox": "Order ID already exists.",
+        "requires_postcode": "This country requires a postcode.",
+        "bundle_exists_for_huboobox": "Bundle SKU did not match.",
+        "invalid_postcode": "Shipping post code is invalid.",
+        "country_not_found": "The country was not found.",
+        "invalid_money_format": "Money must be in an expected monetary format. Examples: 1, 1.2 or 1.23",
+        "quantity_not_available": "Current quantity is unavailable",
+        "commodity_code_digits_in": "Commodity code must be 8,10 or 14 digits.",
+        "validation_error_message": "The validation error message.",
+        "api_token_already_added": "This Api Token has already been added, please add another.",
+        "unique_shop_name": "Shop name must be unique.",
+        "custom_desc_limit": "Customs Description should be a maximum of 90 characters.",
+        "file": {
+            "invalid_file": "Invalid file",
+            "invalid_type": "Invalid type",
+            "file_not_exists": "File does not exist"
+        },
+        "sku": {
+            "sku_already_exists": "This SKU already exists, please edit and try again.",
+            "sku_unique": "SKU must be unique.",
+            "sku_matched": "SKU matched",
+            "sku_duplicated": "SKU :input already exists. Please edit duplicate SKU and reimport.",
+            "sku_already_exist": "This SKU already exists, please edit and try again."
+        },
+        "identifier": {
+            "identifier_already_exists": "Identifier :input already exists. Please edit duplicate identifier and reimport.",
+            "duplicate_identifier": "Your Listing has not been added. Identifier :input already exists. Please edit duplicate identifier and add manual listing again"
+        },
+        "user": {
+            "incorrect_password": "Current password is incorrect"
+        },
+        "unique_client_order_id": "The client order id has already been taken.",
+        "bundle_sku_exists_for_huboobox": "Bundle SKU already exists.",
+        "country": {
+            "country_duplicated": "This country must be unique"
+        }
+    },
+    "sales": {
+        "navigation": {
+            "current": "Current Sales with Huboo",
+            "shipped": "Sales Shipped From Huboo",
+            "notWithHuboo": "Sales Not With Huboo",
+            "title": "My Huboo - Sales report Shipped"
+        },
+        "notWithHuboo": {
+            "title": "My Huboo - Sales Not With Huboo",
+            "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+            "seoTitle": "Huboo | My Huboo - Sales Not With Huboo",
+            "tableTitle": "Sales Not With Huboo"
+        },
+        "report": {
+            "title": "My Huboo - Sales report",
+            "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+            "seoTitle": "My Huboo - Sales report",
+            "tableTitle": "Sales currently with Huboo"
+        },
+        "TotalSales": "Total Sales",
+        "AmountOfOrders": "Amount of orders",
+        "LowStock": "Low Stock",
+        "HealthyStock": "Healthy stock",
+        "Stockover2months": "Stock over 2 months"
+    },
+    "tickets": {
+        "title": "Tickets",
+        "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+        "seoTitle": "Huboo | My Huboo - Tickets report",
+        "exceptions": {
+            "wrongCredentials": "Sorry, there was an issue when raising your ticket, please try again or alternatively select the Huboo Support icon from your homepage and raise a new support ticket",
+            "serviceUnavailable": "Sorry, there was an issue when raising your ticket, please try again or alternatively select the Huboo Support icon from your homepage and raise a new support ticket",
+            "logMessage": "Freshdesk Submit Message: User Huboobox: %s, exception: %s, trace: %s"
+        }
+    },
+    "validation": {
+        "accepted": "The :attribute must be accepted.",
+        "account": {
+            "generalError": "Your :attribute should be from 8 to 16 characters and contain at least one letter and one number."
+        },
+        "active_url": "The :attribute is not a valid URL.",
+        "after": "The :attribute must be a date after :date.",
+        "after_or_equal": "The :attribute must be a date after or equal to :date.",
+        "alpha": "The :attribute may only contain letters.",
+        "alpha_dash": "The :attribute may only contain letters, numbers, dashes and underscores.",
+        "alpha_num": "The :attribute may only contain letters and numbers.",
+        "amazon": {
+            "customerError": "Listing related to another Customer",
+            "listingError": "Incorrect Amazon listing item",
+            "shopError": "Can't connect to shop. Please check credentials."
+        },
+        "array": "The :attribute must be an array.",
+        "bandCamp": {
+            "generalError": "Can't connect to shop. Please check credentials.",
+            "credentialsError": "Bandcamp credentials already created. Please reload the page.",
+            "shopError": "Can't connect to shop. Please check credentials."
+        },
+        "before": "The :attribute must be a date before :date.",
+        "before_or_equal": "The :attribute must be a date before or equal to :date.",
+        "between": {
+            "numeric": "The :attribute must be between :min and :max.",
+            "file": "The :attribute must be between :min and :max kilobytes.",
+            "string": "The :attribute must be between :min and :max characters.",
+            "array": "The :attribute must have between :min and :max items."
+        },
+        "boolean": "The :attribute field must be true or false.",
+        "bigCommerce": {
+            "credentialsError": "Big commerce credentials already created. Please reload the page.1",
+            "shopError": "Can't connect to shop. Please check credentials."
+        },
+        "billing": {
+            "generalError": "Unable to retreive the data for the billing page."
+        },
+        "companyError": "Incorrect company",
+        "confirmed": "The :attribute confirmation does not match.",
+        "date": "The :attribute is not a valid date.",
+        "date_equals": "The :attribute must be a date equal to :date.",
+        "date_format": "The :attribute does not match the format :format.",
+        "dateError": {
+            "toDate": "The to date must be a date after or equal to from date.",
+            "format": "The \\:attribute does not match to the format yyyy-mm-dd.",
+            "range": "Invalid date range"
+        },
+        "delivery": {
+            "generalError": "Server error. Delivery was not created.",
+            "notRestored": "Server error. Delivery was not restored.",
+            "notCancelled": "Server error. Delivery was not cancelled."
+        },
+        "different": "The :attribute and :other must be different.",
+        "digits": "The :attribute must be :digits digits.",
+        "digits_between": "The :attribute must be between :min and :max digits.",
+        "dimensions": "The :attribute has invalid image dimensions.",
+        "distinct": "The :attribute field has a duplicate value.",
+        "ebay": {
+            "noShop": "Can't connect to shop. Please check credentials.",
+            "oldError": "old ebay now manual",
+            "notFound": "Not found",
+            "listingError": "Incorrect Ebay listing item",
+            "customerError": "Listing related to another Customer"
+        },
+        "encodingError": "Can't find :name encoding",
+        "email": "The :attribute must be a valid email address.",
+        "emailPasswordIncorrect": "Email or password is wrong",
+        "etsy": {
+            "noShop": "Can't connect to shop. Please check credentials.",
+            "listingError": "Incorrect Etsy listing item",
+            "customerError": "Listing related to another Customer"
+        },
+        "exists": "The selected :attribute is invalid.",
+        "file": "The :attribute must be a file.",
+        "filled": "The :attribute field must have a value.",
+        "forgotPassword": "Emails was not sent",
+        "gt": {
+            "numeric": "The :attribute must be greater than :value.",
+            "file": "The :attribute must be greater than :value kilobytes.",
+            "string": "The :attribute must be greater than :value characters.",
+            "array": "The :attribute must have more than :value items."
+        },
+        "gte": {
+            "numeric": "The :attribute must be greater than or equal :value.",
+            "file": "The :attribute must be greater than or equal :value kilobytes.",
+            "string": "The :attribute must be greater than or equal :value characters.",
+            "array": "The :attribute must have :value items or more."
+        },
+        "grabber": {
+            "credentialsError": "Grabber credentials already created. Please reload the page.",
+            "shopError": "Can't connect to shop. Please check credentials."
+        },
+        "image": "The :attribute must be an image.",
+        "in": "The selected :attribute is invalid.",
+        "in_array": "The :attribute field does not exist in :other.",
+        "integer": "The :attribute must be an integer.",
+        "ip": "The :attribute must be a valid IP address.",
+        "ipv4": "The :attribute must be a valid IPv4 address.",
+        "ipv6": "The :attribute must be a valid IPv6 address.",
+        "json": "The :attribute must be a valid JSON string.",
+        "linworks": {
+            "noShop": "Can't connect to shop. Please check credentials.",
+            "noSetup": "Can't setup linnworks. Please try again"
+        },
+        "lt": {
+            "numeric": "The :attribute must be less than :value.",
+            "file": "The :attribute must be less than :value kilobytes.",
+            "string": "The :attribute must be less than :value characters.",
+            "array": "The :attribute must have less than :value items."
+        },
+        "lte": {
+            "numeric": "The :attribute must be less than or equal :value.",
+            "file": "The :attribute must be less than or equal :value kilobytes.",
+            "string": "The :attribute must be less than or equal :value characters.",
+            "array": "The :attribute must not have more than :value items."
+        },
+        "max": {
+            "numeric": "The :attribute may not be greater than :max.",
+            "file": "The :attribute may not be greater than :max kilobytes.",
+            "string": "The :attribute may not be greater than :max characters.",
+            "array": "The :attribute may not have more than :max items."
+        },
+        "mimes": "The :attribute must be a file of type: :values.",
+        "mimetypes": "The :attribute must be a file of type: :values.",
+        "mimeTypeCsv": "File must be an image (gif,jpg,jpeg,png,webp) or a CSV.",
+        "min": {
+            "numeric": "The :attribute must be at least :min.",
+            "file": "The :attribute must be at least :min kilobytes.",
+            "string": "The :attribute must be at least :min characters.",
+            "array": "The :attribute must have at least :min items."
+        },
+        "noBasket": "No basket items found.",
+        "not_in": "The selected :attribute is invalid.",
+        "not_regex": "The :attribute format is invalid.",
+        "numeric": "The :attribute must be a number.",
+        "onBuy": {
+            "credentialsError": "Onbuy credentials already created. Please reload the page.",
+            "shopError": "Can't connect to shop. Please check credentials."
+        },
+        "order": {
+            "price": "Total price currency does not match items' currency",
+            "priceTotal": "Total price does not match sum of items' prices",
+            "exists": "Huboo_sku :input does not exist.",
+            "distinct": "The :attribute should be unique among single request.",
+            "in": "huboo_sku should be equal to one of user's channels",
+            "sku_map_distinct": ":input does not exist or is not unique",
+            "size": "Currency code should be valid ISO 4217 3-letter code",
+            "unique": "\":input\" has already been taken by current user"
+        },
+        "pages": {
+            "404": {
+                "title": "404",
+                "description": "Page Not Found<br>Please check the URL or return to the <a href=\\\"\/\\\">dashboard<\/a>."
+            },
+            "500": {
+                "title": "Oops...",
+                "description": "Looks like something went wrong. <br>We’re working on it."
+            },
+            "503": {
+                "title": "Service is unavailable.",
+                "description": "Deploying new features, please refresh the page in 15 minutes"
+            }
+        },
+        "present": "The :attribute field must be present.",
+        "regex": "The :attribute format is invalid.",
+        "report": {
+            "generalError": "Server Error. Can not cancel the order.",
+            "editError": "Server Error. Can not edit the order."
+        },
+        "required": "The :attribute field is required.",
+        "required_if": "The :attribute field is required when :other is :value.",
+        "required_unless": "The :attribute field is required unless :other is in :values.",
+        "required_with": "The :attribute field is required when :values is present.",
+        "required_with_all": "The :attribute field is required when :values are present.",
+        "required_without": "The :attribute field is required when :values is not present.",
+        "required_without_all": "The :attribute field is required when none of :values are present.",
+        "same": "The :attribute and :other must match.",
+        "selro": {
+            "credentialsError": "Selro credentials already created. Please reload the page.",
+            "shopError": "Can't connect to shop. Please check credentials."
+        },
+        "shopName": ":name shop",
+        "shopify": {
+            "noShop": "Can't connect to shop. Please check credentials.",
+            "noSetup": "Can't setup linnworks. Please try again",
+            "listingError": "Incorrect Shopify listing item",
+            "customerError": "Listing related to another Customer",
+            "requestError": "Invalid request.",
+            "shopError": "Invalid request incorrect shop."
+        },
+        "size": {
+            "numeric": "The :attribute must be :size.",
+            "file": "The :attribute must be :size kilobytes.",
+            "string": "The :attribute must be :size characters.",
+            "array": "The :attribute must contain :size items."
+        },
+        "squareSpace": {
+            "credentialsError": "Squarespace credentials already created. Please reload the page.",
+            "shopError": "Can't connect to shop. Please check credentials."
+        },
+        "street": {
+            "shopError": "Can't connect to shop. Please check credentials."
+        },
+        "starts_with": "The :attribute must start with one of the following: :values",
+        "string": "The :attribute must be a string.",
+        "timezone": "The :attribute must be a valid zone.",
+        "unique": "The :attribute has already been taken.",
+        "uploaded": "The :attribute failed to upload.",
+        "url": "The :attribute format is invalid.",
+        "uuid": "The :attribute must be a valid UUID.",
+        "woocommerce": {
+            "customerError": "Listing related to another Customer",
+            "listingError": "Incorrect WooCommerce listing item",
+            "shopError": "Can't connect to shop. Please check credentials.",
+            "credentialsError": "Woocommerce credentials already created. Please reload the page."
+        },
+        "custom": {
+            "attribute-name": {
+                "rule-name": "custom-message"
+            }
+        },
+        "attributes": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "warehouse": {
+        "ref": "Huboo Ref",
+        "noWarehouse": "Your Huboo address will be displayed here . Please authorise eBay or contact us for other channels . ",
+        "refDescription": "Parcels must have \"Huboo Ref {hubooRef}\" quoted . This is your own unique number . ",
+        "goodsInAddress": "Goods In Address",
+        "returnsAddress": "Returns Address",
+        "returnsAdditionalInformation": "Please ensure all returns from your clients are sent to this address"
+    },
+    "with-huboo-listing": {
+        "title": "Listings with Huboo",
+        "seoDescription": "Fulfillment from Huboo, we store and send your stock",
+        "seoTitle": "Huboo | Listings with Huboo",
+        "subTitle": "Listings with Huboo - any items here can be sent or dropped off to Huboo.",
+        "serverError": "Something went wrong, please try later.",
+        "bulkMode": {
+            "skusRequired": "At least one Listing must be selected"
+        }
+    },
+    "emails": {
+        "reset_password": {
+            "subject": "Huboo - Reset Password",
+            "line_1": "You are receiving this email because we received a password reset request for your account.",
+            "button_reset_password_text": "Reset Password",
+            "line_3": "This password reset link will expire in :count minutes.",
+            "line_4": "If you did not request a password reset, no further action is required."
+        },
+        "template": {
+            "error": "Whoops!",
+            "greeting": "Hello!",
+            "salutation": "Regards,",
+            "action_button_fallback": "If you’re having trouble clicking the \":actionText\" button, copy and paste the URL below into your web browser: [:actionURL](:actionURL)",
+            "all_rights_reserved": "All Rights Reserved."
+        },
+        "verify_email": {
+            "subject": "Verify Email Address",
+            "line_1": "Please click the button below to verify your email address.",
+            "action_button_text": "Verify Email Address",
+            "line_3": "If you did not create an account, no further action is required."
+        }
+    },
+    "vat-validator": {
+        "messages": {
+            "vat_number": "The VAT Number format is invalid."
+        }
+    }
+}

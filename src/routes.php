@@ -1,3 +1,3 @@
 <?php
 
-Route::webhooks('translations/update', 'default');
+Route::webhooks('api/translations/update', 'default');
