@@ -49,7 +49,7 @@ class TranslationServiceProvider extends BaseTranslationServiceProvider
      */
     public function boot(): void
     {
-        include __DIR__ . '/routes.php';
+        include dirname(__FILE__) . '../routes.php';
     }
 
     protected function registerLoader()
