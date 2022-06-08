@@ -7,6 +7,7 @@ namespace Huboo\Translations\Providers;
 use Huboo\Translations\Services\Cache\RedisCacheService;
 use Huboo\Translations\Loader\HybridLoader;
 use GuzzleHttp\Client;
+use Huboo\Translations\TranslationCache;
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Translation\TranslationServiceProvider as BaseTranslationServiceProvider;
