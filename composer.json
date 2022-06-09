@@ -30,12 +30,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Huboo\\Translations\\": "src"
+      "Huboo\\I18nLoader\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Huboo\\Translations\\Tests\\": "tests"
+      "Huboo\\I18nLoader\\Tests\\": "tests"
     }
   },
   "config": {
