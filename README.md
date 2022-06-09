@@ -11,7 +11,7 @@ and
 
 2. in `config/app.php`
 
-2.1 add `Huboo\I18nLoader\Providers\TranslationServiceProvider::class,` to `providers`
+2.1 add `Huboo\I18nLoader\Providers\I18nLoaderServiceProvider::class,` to `providers`
 
 3. publish webhook config
 

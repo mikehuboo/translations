@@ -47,7 +47,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Huboo\\Translations\\Providers\\TranslationServiceProvider"
+        "Huboo\\I18nLoader\\Providers\\I18nLoaderServiceProvider"
       ]
     }
   }

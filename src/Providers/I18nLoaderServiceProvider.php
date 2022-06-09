@@ -10,7 +10,7 @@ use GuzzleHttp\Client;
 use Huboo\I18nLoader\I18nLoaderCache;
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Foundation\Application;
-use Illuminate\Translation\TranslationServiceProvider as BaseTranslationServiceProvider;
+use Illuminate\Translation\I18nLoaderServiceProvider as BaseTranslationServiceProvider;
 
 class I18nLoaderServiceProvider extends BaseTranslationServiceProvider
 {
