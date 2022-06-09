@@ -1,6 +1,9 @@
 {
-  "name": "huboo/translations",
-  "description": "This demo package will do some calculations",
+  "name": "huboo/huboo-i81n-loader",
+  "description": "This package provides means to add lokalise translations to Huboo laravel applications",
+  "keywords": [
+    "huboo-i81n-loader"
+  ],
   "minimum-stability": "stable",
   "authors": [
     {
