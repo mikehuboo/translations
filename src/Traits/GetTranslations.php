@@ -2,8 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Huboo\I18nLoader;
+namespace Huboo\I18nLoader\Traits;
 
+use Huboo\I18nLoader\I18nLoaderCache;
 use Huboo\I18nLoader\Services\Cache\RedisCacheService;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;

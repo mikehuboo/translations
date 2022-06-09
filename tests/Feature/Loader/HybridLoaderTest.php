@@ -2,11 +2,11 @@
 
 namespace Huboo\I18nLoader\Tests\Feature\Loader;
 
-use Huboo\I18nLoader\GetTranslations;
 use Huboo\I18nLoader\Services\Cache\RedisCacheService;
 use Huboo\I18nLoader\Loader\HybridLoader;
 use Huboo\I18nLoader\I18nLoaderCache;
 use GuzzleHttp\Client;
+use Huboo\I18nLoader\Traits\GetTranslations;
 use Illuminate\Filesystem\Filesystem;
 use Orchestra\Testbench\TestCase;
 
