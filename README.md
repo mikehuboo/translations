@@ -15,4 +15,4 @@ and
 
 3. publish webhook config
 
-3.1 run `php artisan vendor:publish --provider="Spatie\WebhookClient\WebhookClientServiceProvider" --tag="webhook-client-config"`
+3.1 run `php artisan vendor:publish --provider=""Huboo\I18nLoader\Providers\I18nLoaderServiceProvider"`

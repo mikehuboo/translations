@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests;
+namespace Huboo\I18nLoader\Tests;
 
 use Huboo\I18nLoader\Services\Cache\RedisCacheService;
 use Huboo\I18nLoader\I18nLoaderCache;

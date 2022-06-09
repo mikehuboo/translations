@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Huboo\I18nLoader\Tests;
 
 use Illuminate\Contracts\Console\Kernel;
 
