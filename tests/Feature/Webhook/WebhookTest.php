@@ -2,9 +2,9 @@
 
 namespace Tests\Feature\Webhook;
 
-use http\Client\Response;
 use Illuminate\Support\Facades\Config;
-use Tests\TestCase;
+use Orchestra\Testbench\TestCase;
+use Symfony\Component\HttpFoundation\Response;
 
 class WebhookTest extends TestCase
 {
@@ -20,7 +20,6 @@ class WebhookTest extends TestCase
     public function failsValidationWithoutHeader()
     {
         $this->post('api/translations/update', [], [])
-            ->dump()
             ->assertStatus(Response::HTTP_INTERNAL_SERVER_ERROR);
     }
 

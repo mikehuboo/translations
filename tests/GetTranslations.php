@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Traits;
+namespace Tests;
 
 use Huboo\I18nLoader\Services\Cache\RedisCacheService;
 use Huboo\I18nLoader\I18nLoaderCache;

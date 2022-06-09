@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests;
+namespace Huboo\I18nLoader\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Orchestra\Testbench\TestCase as BaseTestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\WithoutEvents;
-use Tests\Traits\GetTranslations;
+use Tests\CreatesApplication;
 
 /**
  * Class TestCase

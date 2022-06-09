@@ -7,7 +7,7 @@ use Huboo\I18nLoader\Loader\HybridLoader;
 use Huboo\I18nLoader\I18nLoaderCache;
 use GuzzleHttp\Client;
 use Illuminate\Filesystem\Filesystem;
-use PHPUnit\Framework\TestCase;
+use Orchestra\Testbench\TestCase;
 
 class HybridLoaderTest extends TestCase
 {
@@ -17,7 +17,7 @@ class HybridLoaderTest extends TestCase
     public function canReturnIfTranslationsAreEmpty()
     {
 
-        $client = new MockClient();
+        $client = $this->createMock(Client::class);
         $cacheService = new RedisCacheService();
         $cache = new I18nLoaderCache($client, ['url' => self::EXAMPLE_URL], $cacheService);
         $hybridLoader = (new HybridLoader(new Filesystem(), '', $cache));
@@ -31,7 +31,7 @@ class HybridLoaderTest extends TestCase
     public function canReturnTranslationsForVendor()
     {
 
-        $client = new MockClient();
+        $client = $this->createMock(Client::class);
         $cacheService = new RedisCacheService();
         $cache = new I18nLoaderCache($client, ['url' => self::EXAMPLE_URL], $cacheService);
         $hybridLoader = (new HybridLoader(new Filesystem(), '', $cache));
@@ -39,16 +39,5 @@ class HybridLoaderTest extends TestCase
         $hybridLoader->load('en', 'messages', 'vat-validator');
 
         $this->assertTrue(true); // confirming that no exceptions or type errors are thrown
-    }
-}
-
-class MockClient extends Client
-{
-    /**
-     * @return null
-     */
-    public static function get()
-    {
-        return null;
     }
 }
