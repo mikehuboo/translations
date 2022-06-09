@@ -1,9 +1,9 @@
 <?php
 
-namespace Huboo\Translations\Console\Commands;
+namespace Huboo\I18nLoader\Console\Commands;
 
 use Exception;
-use Huboo\Translations\TranslationCache;
+use Huboo\I18nLoader\I18nLoaderCache;
 use Illuminate\Console\Command;
 use Psr\Log\LoggerInterface;
 
@@ -27,7 +27,7 @@ class CacheTranslationsCommand extends Command
     protected $description = 'Rebuilds the redis cache for the backend translations';
 
     /**
-     * @var TranslationCache
+     * @var I18nLoaderCache
      */
     protected $translationCache;
 
@@ -37,10 +37,10 @@ class CacheTranslationsCommand extends Command
     protected $logger;
 
     /**
-     * @param TranslationCache $translationCache
+     * @param I18nLoaderCache $translationCache
      * @param LoggerInterface $logger
      */
-    public function __construct(TranslationCache $translationCache, LoggerInterface $logger)
+    public function __construct(I18nLoaderCache $translationCache, LoggerInterface $logger)
     {
         parent::__construct();
         $this->translationCache = $translationCache;

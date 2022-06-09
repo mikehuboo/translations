@@ -1,6 +1,6 @@
 <?php
 
-namespace Huboo\Translations\Jobs;
+namespace Huboo\I18nLoader\Jobs;
 
 use Exception;
 use Spatie\WebhookClient\ProcessWebhookJob as SpatieProcessWebhookJob;

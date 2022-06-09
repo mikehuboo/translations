@@ -1,6 +1,6 @@
 <?php
 
-namespace Huboo\Translations\Webhook\Validator;
+namespace Huboo\I18nLoader\Webhook\Validator;
 
 use Illuminate\Http\Request;
 use Spatie\WebhookClient\Exceptions\WebhookFailed;

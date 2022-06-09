@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Huboo\Translations\Http\Middleware;
+namespace Huboo\I18nLoader\Http\Middleware;
 
 use Closure;
 

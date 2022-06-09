@@ -1,6 +1,6 @@
 <?php
 
-use Huboo\Translations\Loader\HybridLoader;
+use Huboo\I18nLoader\Loader\HybridLoader;
 
 return [
     'default' => env('DEFAULT_LANGUAGE', 'en'),

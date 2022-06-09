@@ -2,8 +2,8 @@
 
 namespace Tests\Feature\Webhook;
 
+use http\Client\Response;
 use Illuminate\Support\Facades\Config;
-use Symfony\Component\HttpFoundation\Response;
 use Tests\TestCase;
 
 class WebhookTest extends TestCase

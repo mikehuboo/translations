@@ -25,7 +25,7 @@ return [
              *
              * It should implement \Spatie\WebhookClient\SignatureValidator\SignatureValidator
              */
-            'signature_validator' => \Huboo\Translations\Webhook\Validator\TranslationSignatureValidator::class,
+            'signature_validator' => \Huboo\I18nLoader\Webhook\Validator\TranslationSignatureValidator::class,
 
             /*
              * This class determines if the webhook call should be stored and processed.
@@ -43,7 +43,7 @@ return [
              *
              * This should be set to a class that extends \Spatie\WebhookClient\ProcessWebhookJob.
              */
-            'process_webhook_job' => \Huboo\Translations\Jobs\ClearTranslationCacheJob::class,
+            'process_webhook_job' => \Huboo\I18nLoader\Jobs\ClearTranslationCacheJob::class,
         ],
     ],
 ];

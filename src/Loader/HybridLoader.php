@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Huboo\Translations\Loader;
+namespace Huboo\I18nLoader\Loader;
 
-use Huboo\Translations\TranslationCache;
+use Huboo\I18nLoader\I18nLoaderCache;
 use Exception;
 use Illuminate\Contracts\Translation\Loader;
 use Illuminate\Filesystem\Filesystem;
@@ -41,7 +41,7 @@ class HybridLoader extends FileLoader implements Loader
     protected $hints = [];
 
     /**
-     * @var TranslationCache
+     * @var I18nLoaderCache
      */
     private $cache;
 
@@ -50,9 +50,9 @@ class HybridLoader extends FileLoader implements Loader
      *
      * @param Filesystem $files
      * @param string $path
-     * @param TranslationCache $cache
+     * @param I18nLoaderCache $cache
      */
-    public function __construct(Filesystem $files, string $path, TranslationCache $cache)
+    public function __construct(Filesystem $files, string $path, I18nLoaderCache $cache)
     {
         parent::__construct($files, $path);
 

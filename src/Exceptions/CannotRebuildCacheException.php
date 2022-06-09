@@ -1,6 +1,6 @@
 <?php
 
-namespace Huboo\Translations\Exceptions;
+namespace Huboo\I18nLoader\Exceptions;
 
 use Exception;
 

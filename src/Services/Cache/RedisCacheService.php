@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Huboo\Translations\Services\Cache;
+namespace Huboo\I18nLoader\Services\Cache;
 
 use Exception;
 use Illuminate\Support\Facades\Redis as RedisCache;

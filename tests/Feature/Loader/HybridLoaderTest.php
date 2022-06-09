@@ -2,9 +2,9 @@
 
 namespace Tests\Feature\Loader;
 
-use Huboo\Translations\Services\Cache\RedisCacheService;
-use Huboo\Translations\Loader\HybridLoader;
-use Huboo\Translations\TranslationCache;
+use Huboo\I18nLoader\Services\Cache\RedisCacheService;
+use Huboo\I18nLoader\Loader\HybridLoader;
+use Huboo\I18nLoader\I18nLoaderCache;
 use GuzzleHttp\Client;
 use Illuminate\Filesystem\Filesystem;
 use PHPUnit\Framework\TestCase;
@@ -19,7 +19,7 @@ class HybridLoaderTest extends TestCase
 
         $client = new MockClient();
         $cacheService = new RedisCacheService();
-        $cache = new TranslationCache($client, ['url' => self::EXAMPLE_URL], $cacheService);
+        $cache = new I18nLoaderCache($client, ['url' => self::EXAMPLE_URL], $cacheService);
         $hybridLoader = (new HybridLoader(new Filesystem(), '', $cache));
 
         $hybridLoader->load('en', '*', '*');
@@ -33,7 +33,7 @@ class HybridLoaderTest extends TestCase
 
         $client = new MockClient();
         $cacheService = new RedisCacheService();
-        $cache = new TranslationCache($client, ['url' => self::EXAMPLE_URL], $cacheService);
+        $cache = new I18nLoaderCache($client, ['url' => self::EXAMPLE_URL], $cacheService);
         $hybridLoader = (new HybridLoader(new Filesystem(), '', $cache));
 
         $hybridLoader->load('en', 'messages', 'vat-validator');

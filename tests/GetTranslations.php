@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\Traits;
 
-use Huboo\Translations\Services\Cache\RedisCacheService;
-use Huboo\Translations\TranslationCache;
+use Huboo\I18nLoader\Services\Cache\RedisCacheService;
+use Huboo\I18nLoader\I18nLoaderCache;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Support\Facades\File;
@@ -15,7 +15,7 @@ trait GetTranslations
 {
     protected function setConfigCache()
     {
-        $path = TranslationCache::KEY_PREFIX . config('language.loader.url');
+        $path = I18nLoaderCache::KEY_PREFIX . config('language.loader.url');
 
         Redis::set($path . '/config.json', File::get(base_path('tests/Feature/Data/config.json')));
         Redis::set($path . '/php/en.json', File::get(base_path('tests/Feature/Data/en.json')));
@@ -24,9 +24,9 @@ trait GetTranslations
     }
 
     /**
-     * @return TranslationCache
+     * @return I18nLoaderCache
      */
-    protected function getMockedTranslationService(): TranslationCache
+    protected function getMockedTranslationService(): I18nLoaderCache
     {
         $mockClient = $this->mock(Client::class, function ($mock) {
             return $mock
@@ -59,6 +59,6 @@ trait GetTranslations
         $cacheService = new RedisCacheService();
         $loaderConfig = config('language.loader');
 
-        return new TranslationCache($mockClient, $loaderConfig, $cacheService);
+        return new I18nLoaderCache($mockClient, $loaderConfig, $cacheService);
     }
 }

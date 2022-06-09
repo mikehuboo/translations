@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Huboo\Translations\Providers;
+namespace Huboo\I18nLoader\Providers;
 
-use Huboo\Translations\Services\Cache\RedisCacheService;
-use Huboo\Translations\Loader\HybridLoader;
+use Huboo\I18nLoader\Services\Cache\RedisCacheService;
+use Huboo\I18nLoader\Loader\HybridLoader;
 use GuzzleHttp\Client;
-use Huboo\Translations\TranslationCache;
+use Huboo\I18nLoader\I18nLoaderCache;
 use Illuminate\Config\Repository;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Translation\TranslationServiceProvider as BaseTranslationServiceProvider;
 
-class TranslationServiceProvider extends BaseTranslationServiceProvider
+class I18nLoaderServiceProvider extends BaseTranslationServiceProvider
 {
     /**
      * @var Repository|Application|mixed
@@ -68,14 +68,14 @@ class TranslationServiceProvider extends BaseTranslationServiceProvider
     {
         parent::registerLoader();
 
-        $this->app->bind(TranslationCache::class, function () {
-            return new TranslationCache($this->client, $this->loaderConfig, $this->cacheService);
+        $this->app->bind(I18nLoaderCache::class, function () {
+            return new I18nLoaderCache($this->client, $this->loaderConfig, $this->cacheService);
         });
 
-        $this->app->bind('translation.cache', TranslationCache::class);
+        $this->app->bind('translation.cache', I18nLoaderCache::class);
 
         $this->app->singleton('translation.loader', function ($app) {
-            return new HybridLoader($app['files'], $app['path.lang'], $app[TranslationCache::class]);
+            return new HybridLoader($app['files'], $app['path.lang'], $app[I18nLoaderCache::class]);
         });
     }
 }
