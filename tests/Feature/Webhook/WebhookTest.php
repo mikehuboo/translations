@@ -1,13 +1,16 @@
 <?php
 
-namespace Tests\Feature\Webhook;
+namespace Huboo\I18nLoader\Tests\Feature\Webhook;
 
+use Huboo\I18nLoader\Tests\GetTranslations;
 use Illuminate\Support\Facades\Config;
 use Orchestra\Testbench\TestCase;
 use Symfony\Component\HttpFoundation\Response;
 
 class WebhookTest extends TestCase
 {
+    use GetTranslations;
+
     public function setUp(): void
     {
         parent::setUp();
