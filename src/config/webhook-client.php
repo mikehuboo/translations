@@ -43,7 +43,7 @@ return [
              *
              * This should be set to a class that extends \Spatie\WebhookClient\ProcessWebhookJob.
              */
-            'process_webhook_job' => \Huboo\I18nLoader\Jobs\ClearTranslationCacheJob::class,
+            'process_webhook_job' => \Huboo\I18nLoader\Jobs\ClearI18nLoaderCacheJob::class,
         ],
     ],
 ];

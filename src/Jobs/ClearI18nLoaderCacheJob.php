@@ -5,7 +5,7 @@ namespace Huboo\I18nLoader\Jobs;
 use Exception;
 use Spatie\WebhookClient\ProcessWebhookJob as SpatieProcessWebhookJob;
 
-class ClearTranslationCacheJob extends SpatieProcessWebhookJob
+class ClearI18nLoaderCacheJob extends SpatieProcessWebhookJob
 {
     /**
      * @throws Exception
