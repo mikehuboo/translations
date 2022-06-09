@@ -1,5 +1,5 @@
 {
-  "name": "huboo/huboo-i18n-loader",
+  "name": "huboo/laravel-i18n-loader",
   "description": "This package provides means to add lokalise translations to Huboo laravel applications",
   "keywords": [
     "huboo-i18n-loader"
