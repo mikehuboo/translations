@@ -2,7 +2,7 @@
 
 namespace Huboo\I18nLoader\Tests\Feature\Webhook;
 
-use Huboo\I18nLoader\Tests\GetTranslations;
+use Huboo\I18nLoader\GetTranslations;
 use Illuminate\Support\Facades\Config;
 use Orchestra\Testbench\TestCase;
 use Symfony\Component\HttpFoundation\Response;

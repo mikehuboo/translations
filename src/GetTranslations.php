@@ -2,10 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Huboo\I18nLoader\Tests;
+namespace Huboo\I18nLoader;
 
 use Huboo\I18nLoader\Services\Cache\RedisCacheService;
-use Huboo\I18nLoader\I18nLoaderCache;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use Illuminate\Support\Facades\File;
@@ -17,10 +16,10 @@ trait GetTranslations
     {
         $path = I18nLoaderCache::KEY_PREFIX . config('language.loader.url');
 
-        Redis::set($path . '/config.json', File::get(base_path('tests/Feature/Data/config.json')));
-        Redis::set($path . '/php/en.json', File::get(base_path('tests/Feature/Data/en.json')));
-        Redis::set($path . '/php/es.json', File::get(base_path('tests/Feature/Data/es.json')));
-        Redis::set($path . '/php/de.json', File::get(base_path('tests/Feature/Data/de.json')));
+        Redis::set($path . '/config.json', File::get(base_path('tests/Data/config.json')));
+        Redis::set($path . '/php/en.json', File::get(base_path('tests/Data/en.json')));
+        Redis::set($path . '/php/es.json', File::get(base_path('tests/Data/es.json')));
+        Redis::set($path . '/php/de.json', File::get(base_path('tests/Data/de.json')));
     }
 
     /**
@@ -36,22 +35,22 @@ trait GetTranslations
                     new Response(
                         \Symfony\Component\HttpFoundation\Response::HTTP_OK,
                         [],
-                        File::get(base_path('tests/Feature/Data/config.json'))
+                        File::get(base_path('tests/Data/config.json'))
                     ),
                     new Response(
                         \Symfony\Component\HttpFoundation\Response::HTTP_OK,
                         [],
-                        File::get(base_path('tests/Feature/Data/en.json'))
+                        File::get(base_path('tests/Data/en.json'))
                     ),
                     new Response(
                         \Symfony\Component\HttpFoundation\Response::HTTP_OK,
                         [],
-                        File::get(base_path('tests/Feature/Data/es.json'))
+                        File::get(base_path('tests/Data/es.json'))
                     ),
                     new Response(
                         \Symfony\Component\HttpFoundation\Response::HTTP_OK,
                         [],
-                        File::get(base_path('tests/Feature/Data/de.json'))
+                        File::get(base_path('tests/Data/de.json'))
                     )
                 );
         });
