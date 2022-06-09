@@ -11,4 +11,8 @@ and
 
 2. in `config/app.php`
 
-2.1 add `        Huboo\Translations\Providers\TranslationServiceProvider::class,` to `providers`
+2.1 add `Huboo\Translations\Providers\TranslationServiceProvider::class,` to `providers`
+
+3. publish webhook config
+
+3.1 run `php artisan vendor:publish --provider="Spatie\WebhookClient\WebhookClientServiceProvider" --tag="webhook-client-config"`
