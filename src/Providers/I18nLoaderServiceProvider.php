@@ -45,18 +45,6 @@ class I18nLoaderServiceProvider extends BaseTranslationServiceProvider
     }
 
     /**
-     * Register any application services.
-     *
-     * @return void
-     */
-    public function register()
-    {
-        $this->publishes([
-            __DIR__ . '/../config/webhook-client.php' => config_path('webhook-client.php'),
-        ]);
-    }
-
-    /**
      * @return void
      */
     public function boot(): void
@@ -67,6 +55,10 @@ class I18nLoaderServiceProvider extends BaseTranslationServiceProvider
     protected function registerLoader()
     {
         parent::registerLoader();
+
+        $this->publishes([
+            __DIR__ . '/../config/webhook-client.php' => config_path('webhook-client.php'),
+        ]);
 
         $this->app->bind(I18nLoaderCache::class, function () {
             return new I18nLoaderCache($this->client, $this->loaderConfig, $this->cacheService);
